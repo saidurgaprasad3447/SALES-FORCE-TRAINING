@@ -1,147 +1,116 @@
-# 1. What is Salesforce Platform?
 
-The [Salesforce Platform](https://www.salesforce.com/platform/?utm_source=chatgpt.com) is a cloud-based platform used to build business applications without needing much hardware or software installation.
+1. What is CRM
 
-It helps companies:
+CRM stands for Customer Relationship Management.
+It is a system used by companies to manage customer information, sales, communication, marketing, and support in one place.
 
-* Store and manage data
-* Automate business processes
-* Create custom applications
-* Generate reports and dashboards
-* Improve customer management
+CRM helps companies to:
 
-Salesforce works through the internet, so users can access it from anywhere.
+* Store customer details
+* Track customer interactions
+* Improve sales
+* Provide better customer service
+* Increase business growth
 
----
+[Salesforce CRM](https://www.salesforce.com/crm/?utm_source=chatgpt.com) is one of the most popular CRM platforms used by businesses worldwide.
 
-# 2. Explain
+2. Why Companies Use Salesforce
 
-## App
+[Salesforce](https://www.salesforce.com/?utm_source=chatgpt.com) is a cloud-based CRM platform. Companies use Salesforce because it helps them manage customers and business processes efficiently.
 
-An App in Salesforce is a collection of tools, tabs, and features designed for a specific business purpose.
+Reasons for using Salesforce:
 
-Examples:
+* Stores all customer data in one place
+* Improves sales tracking
+* Automates business tasks
+* Provides reports and dashboards
+* Supports customer service and marketing
+* Accessible from anywhere using the internet
+* Secure and scalable for large businesses
 
-* Sales App
-* Service App
-* College Management App
+3. Explain
 
-Purpose:
-
-* Helps users access related functions in one place.
-
----
-
-## Object
-
-An Object is a database table used to store information in Salesforce.
-
-Two types:
-
-1. Standard Objects
-
-   * Account
-   * Contact
-   * Opportunity
-
-2. Custom Objects
-
-   * Student
-   * Patient
-   * Event Registration
-
-Object stores records and fields.
-
-Example:
-Student Object contains:
-
-* Student Name
-* Roll Number
-* Branch
-* Phone Number
-
----
-
-## Tab
-
-A Tab is used to open and access objects, reports, dashboards, or web pages in Salesforce.
-
-Examples:
-
-* Accounts Tab
-* Contacts Tab
-* Students Tab
-
-Purpose:
-
-* Helps users easily navigate through the application.
-
----
-
-# 3. Difference: Configuration vs Coding
-
-| Configuration                          | Coding                          |
-| -------------------------------------- | ------------------------------- |
-| Done using clicks and settings         | Done using programming          |
-| No programming knowledge required      | Requires coding knowledge       |
-| Faster and easier                      | More flexible and powerful      |
-| Uses tools like Flow, Validation Rules | Uses Apex and Visualforce       |
-| Used for simple customization          | Used for complex business logic |
+Account
+An Account represents a company, organization, or customer business in Salesforce.
 
 Example:
 
-* Creating fields → Configuration
-* Writing Apex trigger → Coding
+* TCS
+* Infosys
+* Amazon
 
----
+Account stores:
 
-# 4. Your System Design
+* Company name
+* Address
+* Phone number
+* Industry details
 
-## Example: College Admission System
+Contact
+A Contact represents a person associated with an Account.
 
-### App
+Example:
 
-College Admission App
+* Employee or manager working in a company
 
-### Objects
+Contact stores:
 
-1. Student Object
-2. Course Object
-3. Admission Object
+* Person name
+* Email
+* Phone number
+* Job role
 
-### User Interaction Flow
+Opportunity
+An Opportunity represents a potential sales deal or business deal.
 
-1. Student enters admission details
-2. Admin checks student information
-3. Course is assigned
-4. Admission status is updated
-5. Student receives confirmation
+It is used to track:
 
-### Working Process
+* Sales progress
+* Deal value
+* Expected closing date
+* Sales stages
 
-* User logs into Salesforce
-* Opens College Admission App
-* Creates Student record
-* Adds course details
-* Tracks admission process
+Example:
+A company planning to buy software from another company.
 
----
+4. Your Real-World Mapping
 
-# 5. Screenshots from Trailhead
+Example of real-world mapping in Salesforce:
 
-[Salesforce Trailhead](https://trailhead.salesforce.com/?utm_source=chatgpt.com) provides learning modules and practice environments.
+Account:
+
+* ABC Technologies
+
+Contact:
+
+* Ramesh Kumar (Manager of ABC Technologies)
+
+Opportunity:
+
+* Software purchase deal worth ₹5,00,000
+
+Process:
+
+* Sales team contacts Ramesh Kumar
+* Discussion about software product
+* Opportunity created to track the deal
+* If deal is successful, company becomes a customer
+
+5. Screenshots from Trailhead
+
+Trailhead is the official learning platform of [Salesforce Trailhead](https://trailhead.salesforce.com/?utm_source=chatgpt.com).
 
 Common screenshots include:
 
-* Salesforce Home Page
-* App Launcher
-* Object Manager
-* Tabs and Navigation Menu
-* Trailhead badges and completed modules
+* Salesforce Dashboard
+* Account creation page
+* Contact records page
+* Opportunity tracking page
+* Trailhead badges and modules completion page
 
-Useful Trailhead modules:
+Example modules:
 
 * CRM Basics
 * Salesforce Platform Basics
 * Data Modeling
-* App Customization
+* Reports and Dashboards
